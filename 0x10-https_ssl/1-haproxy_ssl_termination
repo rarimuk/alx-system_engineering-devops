@@ -44,7 +44,7 @@ frontend rarimuk-frontend-https
 	http-request set-header X-Forwarded-Proto https
 	default_backend rarimuk-backend
 
-backend ehoneah-backend
+backend rarimuk-backend
         balance roundrobin
         server 63210-web-01 54.90.41.203:80 check
         server 63210-web-02 100.25.220.81:80 check
